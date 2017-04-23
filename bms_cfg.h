@@ -1,3 +1,6 @@
+/*********************************************************************************************************
+* File : bms_cfg.h
+*********************************************************************************************************/
 #ifndef __BMS_CFG_H_
 #define __BMS_CFG_H_
 
@@ -5,21 +8,21 @@
 #define BMS_CRC_EN               	    1    			/* Enable(1) crc*/
 
 
-#define BMS_STORGE_BUF_SIZE			    256				/*Êı¾İ±£´æÊ±µÄ»º³åÇø´óĞ¡*/
-#define BMS_BAT_TYPE					0x01			/*ÌúÀè*/
-#define BMS_BAT_CAP						200u			/*0.1AH*/
-#define BMS_LOCAL_ADD					1u				/*±¾»úµØÖ·*/
-#define BMS_BMU_MAX_NODE				30
+#define BMS_STORGE_BUF_SIZE			        256				/*æ•°æ®ä¿å­˜æ—¶çš„ç¼“å†²åŒºå¤§å°*/
+#define BMS_BAT_TYPE					          0x01			/*é“é»*/
+#define BMS_BAT_CAP						          200u			/*0.1AH*/
+#define BMS_LOCAL_ADD					          1u				/*æœ¬æœºåœ°å€*/
+#define BMS_BMU_MAX_NODE			        	30
 #define BMS_CELL_NUM                    320
 #define BMS_CELL_TEMP_NUM               30
-#define BMS_CELL_VOL_MAX				3650
-#define BMS_CELL_VOL_MIN				2500
-#define BMS_CELL_GROUP					1,2,3,0,0		/*µç³ØÅÅÁĞ*/
-#define BMS_CELL_BLACNE_VOL				200  			/*mV*/
+#define BMS_CELL_VOL_MAX				        3650
+#define BMS_CELL_VOL_MIN			        	2500
+#define BMS_CELL_GROUP					        1,2,3,0,0		/*ç”µæ± æ’åˆ—*/
+#define BMS_CELL_BLACNE_VOL				      200  			/*mV*/
 
-/*********************************²ÎÊıÉèÖÃ************************************/
-#define BMS_PAR_STORGE_ADD_START	    100  			/*²ÎÊı±£´æµÄÎ»ÖÃ  SMALL FALSH ÖĞ*/
-#define BMS_PAR_STORGE_SIZE			    255	 			/*²ÎÊı±£´æµÄÊı¾İ³¤¶È*/
+/*********************************å‚æ•°è®¾ç½®************************************/
+#define BMS_PAR_STORGE_ADD_START	     100  			/*å‚æ•°ä¿å­˜çš„ä½ç½®  SMALL FALSH ä¸­*/
+#define BMS_PAR_STORGE_SIZE			        255	 			/*å‚æ•°ä¿å­˜çš„æ•°æ®é•¿åº¦*/
 
 
 #endif
